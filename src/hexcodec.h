@@ -2,8 +2,8 @@
  * Класс для преобразования строк между "сырым" (ASCII) и шестнадцатеричным представлениями
  */
 
-#ifndef _SCS_HEXCODEC_H
-#define _SCS_HEXCODEC_H
+#ifndef SCS_HEXCODEC_H
+#define SCS_HEXCODEC_H
 
 #include <string>
 
@@ -67,4 +67,4 @@ namespace SCS
         std::string m_value;
     };
 } // namespace SCS
-#endif // !_SCS_HEXCODEC_H
+#endif // !SCS_HEXCODEC_H

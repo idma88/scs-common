@@ -2,8 +2,8 @@
  * Класс для работы с рациональными числами, в представлении, описанном стандартом IEEE754
  */
 
-#ifndef _SCS_IEEE754_H
-#define _SCS_IEEE754_H
+#ifndef SCS_IEEE754_H
+#define SCS_IEEE754_H
 
 #include <algorithm>
 #include <iomanip>
@@ -41,4 +41,4 @@ namespace SCS
         static const char IEEE754_PREFFIX = '&';
     };
 } // namespace SCS
-#endif // !_SCS_IEEE754_H
+#endif // !SCS_IEEE754_H

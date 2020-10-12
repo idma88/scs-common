@@ -2,8 +2,8 @@
  * Различные вспомогательные алгоритмы
  */
 
-#ifndef _SCS_ALGORITMS_H
-#define _SCS_ALGORITMS_H
+#ifndef SCS_ALGORITMS_H
+#define SCS_ALGORITMS_H
 
 namespace SCS
 {
@@ -20,4 +20,4 @@ namespace SCS
         return (value < low ? low : (value > high ? high : value));
     }
 } // namespace SCS
-#endif // !_SCS_ALGORITMS_H
+#endif // !SCS_ALGORITMS_H

@@ -1,5 +1,5 @@
-#ifndef _SCS_AES
-#define _SCS_AES
+#ifndef SCS_AES
+#define SCS_AES
 
 #include "../libs/tiny-AES-c/aes.hpp"
 
@@ -56,4 +56,4 @@ namespace SCS
 #endif // #if defined(CTR) && (CTR == 1)
 } // namespace SCS
 
-#endif //_SCS_AES
+#endif // !SCS_AES

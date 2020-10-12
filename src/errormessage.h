@@ -2,8 +2,8 @@
  * Класс реализующий управление сообщением об ошибке
  */
 
-#ifndef _SCS_ERROR_MESSAGE_H
-#define _SCS_ERROR_MESSAGE_H
+#ifndef SCS_ERROR_MESSAGE_H
+#define SCS_ERROR_MESSAGE_H
 
 #include <mutex>
 #include <stdarg.h>
@@ -51,7 +51,6 @@ namespace SCS
         // Мютекс для доступа к данным
         mutable std::mutex m_mutex;
     };
-
 } // namespace SCS
 
-#endif // !_SCS_ERROR_MESSAGE_H
+#endif // !SCS_ERROR_MESSAGE_H

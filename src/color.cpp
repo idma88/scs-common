@@ -48,5 +48,4 @@ namespace SCS
                 return powf(static_cast<float>(value) / 255, 2);
         }
     }
-
 } // namespace SCS

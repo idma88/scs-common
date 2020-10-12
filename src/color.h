@@ -2,8 +2,8 @@
  * Класс для преобразования цвета между моделями RGB и SCS
  */
 
-#ifndef _SCSCOLOR_H
-#define _SCSCOLOR_H
+#ifndef SCS_COLOR_H
+#define SCS_COLOR_H
 
 #include <cstdint>
 #include <math.h> // sqrtf, powf
@@ -90,4 +90,4 @@ namespace SCS
     };
 } // namespace SCS
 
-#endif // !_SCSCOLOR_H
+#endif // !SCS_COLOR_H
