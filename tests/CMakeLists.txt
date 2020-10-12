@@ -1,7 +1,3 @@
-#add_subdirectory(googletest-1.10.0)
-#SET(GTEST_DIR ${CMAKE_CURRENT_SOURCE_DIR}/googletest-1.10.0)
-#add_subdirectory(PathProvider)
-
 project(scs-common--test)
 
 cmake_minimum_required(VERSION 3.14)
