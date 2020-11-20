@@ -1,4 +1,4 @@
-для преобразования строк между "сырым" (ASCII) и шестнадцатеричным представлениямиproject(scs-common)
+project(scs-common)
 
 cmake_minimum_required(VERSION 3.14)
 
@@ -28,6 +28,11 @@ set(src_ieee754
     ieee754.cpp
 )
 
+set(src_tokenconverter
+    tokenconverter.h
+    tokenconverter.cpp
+)
+
 set(src_others
     algoritms.h
 )
@@ -37,6 +42,7 @@ set(sources
     ${src_errormessage}
     ${src_hexcodec}
     ${src_ieee754}
+    ${src_tokenconverter}
     ${src_others}
 )
 
