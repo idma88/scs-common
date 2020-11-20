@@ -14,6 +14,7 @@ set(tests
     test_ieee754.cpp
     test_hexcodec.cpp
     test_errormessage.cpp
+    test_tokenconverter.cpp
 )
 
 include_directories(
