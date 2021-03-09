@@ -77,10 +77,10 @@ SpacesInSquareBrackets: 'false'
 Standard: Cpp11
 TabWidth: '4'
 IncludeCategories:
+  - Regex:           '^(<|")(boost\/|qt\/|sfml\/|ext\/|Q)'
+    Priority:        2
   - Regex:           '<[[:alnum:].]+>'
     Priority:        1
-  - Regex:           '^(<|"(boost|qt|sfml)/)'
-    Priority:        2
   - Regex:           '.*'
     Priority:        3
 
